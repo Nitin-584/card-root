@@ -1,8 +1,22 @@
 :root {
+    /* font size */
     font-family: "Poppins", sans-serif;
     --text-md: 16px;
     --text-lg: 24px;
     --text-xl: 48px;
+    /* color  */
+    --color-white-button: white;
+    --color-hover: black;
+    --color-style: #666666;
+    /* bg */
+    --background-color-hover: #ef5801;
+    --background-color-button: #2C49FE;
+         /* border */
+    --border-card: #CCCCCC;
+    /* shadow */
+    --box-shadow-card-1: #0000001A;
+    --box-shadow-card-hover: rgba(0, 0, 0, 0.1);
+    --box-shadow-card-1-hover: #0000001A;
 }
 
 .text-md {

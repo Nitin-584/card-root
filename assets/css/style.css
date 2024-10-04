@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url(./root.css);
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +18,7 @@ section {
 }
 
 .container {
-   max-width: 1140px;
+    max-width: 1140px;
     padding-left: 12px;
     padding-right: 12px;
     margin-left: auto;
@@ -55,7 +56,7 @@ section {
 }
 
 .style {
-    color: #666666;
+    color: var(--color-style);
     font-weight: 400;
     line-height: 150%;
     text-align: left;
@@ -67,8 +68,8 @@ section {
     height: 46px;
     padding: 11px 28px;
     display: inline-block;
-    background-color: #2C49FE;
-    color: white;
+    background-color: var(--background-color-button);
+    color: var(--color-white-button);
     border-radius: 23px;
     border: 0px;
     font-weight: 600;
@@ -78,8 +79,8 @@ section {
 }
 
 .card-button:hover {
-    background: #ef5801;
-    color: black;
+    background-color: var(--background-color-hover);
+    color: var(--color-black-hover);
 }
 
 h1 {
@@ -100,13 +101,13 @@ h1 {
     padding: 20px;
     border-radius: 30px;
     border: none;
-    box-shadow: 0px 8px 35px 0px #0000001A;
+    box-shadow: 0px 8px 35px 0px var(--box-shadow-card-1);
 }
 
 .card {
     padding: 20px;
     border-radius: 30px;
-    border: 1px solid #CCCCCC;
+    border: 1px solid var(--border-card);
 }
 
 h6 {
@@ -123,14 +124,14 @@ h6 {
 
 .card:hover {
     border: none;
-    box-shadow: 0px 8px 35px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 8px 35px 0px var(--box-shadow-card-hover);
     cursor: pointer;
 }
 
 .card-1:hover {
     border: none;
     cursor: pointer;
-    box-shadow: 0px 8px 35px 0px #0000001A;
+    box-shadow: 0px 8px 35px 0px var(--box-shadow-card-1-hover)
 }
 
 @media (min-width:576px) {
@@ -152,4 +153,3 @@ h6 {
 .mb-24 {
     margin-bottom: 24px;
 }
-
