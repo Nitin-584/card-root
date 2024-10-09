@@ -36,11 +36,11 @@ section {
 }
 
 .p-top {
-    padding-top: 53px;
+    padding-top: 20px;
 }
 
 .p-bottom {
-    padding-bottom: 53px;
+    padding-bottom: 20px;
 }
 
 .w-100 {
@@ -163,7 +163,8 @@ section {
     margin-top: 32.4px;
     text-align: center;
 }
-.label{
+
+.label {
     background: #807e7e;
     padding: 6px;
     color: white;
@@ -172,6 +173,7 @@ section {
     z-index: 11;
     display: block;
 }
+
 .flex-grow {
     flex-grow: 1;
     display: flex;
@@ -179,12 +181,64 @@ section {
     justify-items: center;
 }
 
-@media (max-width:553px) {
+ @media (max-width:553px) {
     .btn {
         margin-top: 12px;
     }
-    .email{
+
+    .email {
         width: 100%;
+    } 
+} 
+
+@media (max-width:768px) {
+    .menu-box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100%;
+        width: 100%;
+        background-color:grey;
+        transition: all 200ms linear;
+    }
+    label[for="openslider"] {
+        width: 40px;
+        height: 25px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 1;
+    }
+
+    label[for="openslider"] span {
+        width: 100%;
+        height: 5px;
+        background-color:white;
+        border-radius: 3px;
+        transition: all 200ms linear;
+    }
+
+    input:checked~.menu-box {
+        right: 0;
+    }
+
+    input:checked~label[for="openslider"] span:first-child {
+        transform: rotate(30deg);
+        transform-origin: left;
+    }
+
+    input:checked~label[for="openslider"] span:last-child {
+        transform: rotate(-30deg);
+        transform-origin: left;
+    }
+
+    input:checked~label[for="openslider"] span:nth-child(2) {
+        transform: translateX(-40px);
+        opacity: 0;
+        visibility: hidden;
     }
 }
-
