@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+section {
+    min-height: 100vh;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-8 {
+    width: 66.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.heading {
+    font-family: " DM Sans", sans-serif;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    color: #1E0E62;
+    margin-bottom: 50px;
+}
+
+.heading-2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: left;
+    color: #1E0E62;
+    padding-top: 34.2px;
+    padding-left: 35px;
+}
+
+.card {
+    /* width: 270px;
+    height: 326px; */
+    background: #EBEAED;
+    border-radius: 5px;
+    /* margin-top: 190px; */
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.th-1 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #15143966;
+    white-space: nowrap;
+    padding-left: 0px;
+    padding-bottom: 14px;
+}
+
+.th-2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #15143966;
+    white-space: nowrap;
+    padding-left: 80px;
+    padding-bottom: 14px;
+    gap: 58px;
+}
+
+.th-3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #15143966;
+    white-space: nowrap;
+    padding-left: 68px;
+    padding-bottom: 14px;
+}
+
+.td-1 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #1E0E62;
+    width: 570px;
+    height: 44.6px;
+    white-space: nowrap;
+    padding-left: 10px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.mt-24{
+    margin-top: 24px;
+}
+.td-2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #1E0E62;
+    width: 570px;
+    height: 44.6px;
+    white-space: nowrap;
+    padding-right: 10px;
+}
+
+.td-3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #1E0E62;
+    width: 570px;
+    height: 44.6px;
+    white-space: nowrap;
+    padding-right: 50px;
+}
+
+.td-4 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #1E0E62;
+    width: 570px;
+    height: 44.6px;
+    white-space: nowrap;
+    padding-right: 60px;
+}
+
+.line {
+    width: 570px;
+    height: 2px;
+    background: #EBEAED;
+}
+
+.btn {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 7px 17px;
+    border-radius: 100px;
+    background: #25DAC5;
+    color: white;
+    border: 0px;
+    margin-top: 45px;
+    margin-left: 34px;
+    margin-bottom: 35px;
+}
+
+.para {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    width: 240px;
+    height: 140px;
+    color: #15143966;
+    padding-left: 35px;
+    padding-top: 11.5px;
+}
+
+.table-scroll {
+    overflow: scroll;
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+@media (min-width:992px) {
+    .col-lg-8 {
+        width: 66.66%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .mt-lg-0 {
+        margin-top: 0px;
+    }
+}

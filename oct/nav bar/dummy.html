@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+</head>
+<style>
+ .container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+ }
+
+ .d-flex {
+  display: flex;
+ }
+
+ .items-center {
+  align-items: center;
+ }
+
+ .justify-between {
+  justify-content: space-between;
+ }
+
+ .justify-center {
+  justify-content: center;
+ }
+
+ .gap-3 {
+  gap: 12px;
+ }
+
+ .border-2 {
+  border-width: 2px;
+ }
+
+ .border-solid {
+  border-style: solid;
+ }
+
+ .border-red {
+  border-color: red;
+ }
+
+ .p-1 {
+  padding: 4px;
+ }
+
+ .flex-col {
+  flex-direction: column;
+ }
+
+
+ .max-sm-top-0 {
+  top: 0;
+ }
+
+ .max-sm-left-0 {
+  left: 0;
+ }
+
+ .z-10 {
+  z-index: 10;
+ }
+
+ .bg-off-white {
+  background: rgb(154, 150, 150);
+ }
+
+ .block {
+  display: block;
+ }
+
+ .toggle-switch {
+  background: #807e7e;
+  padding: 6px;
+  color: white;
+  border-radius: 6px;
+  position: relative;
+  z-index: 11;
+ }
+
+
+ #toggle-switch:checked+.max-sm-translate-x-full {
+  transform: translateX(0) !important;
+ }
+
+ .transition-common {
+  transition: all 300ms linear;
+ }
+
+ @media (min-width:576px) {
+  .d-sm-hidden {
+   display: none;
+  }
+
+  .justify-sm-between {
+   justify-content: space-between;
+  }
+
+  .flex-sm-row {
+   flex-direction: row;
+  }
+
+  .d-sm-block {
+   display: block;
+  }
+ }
+
+ @media (max-width:575.98px) {
+  .max-sm-h-screen {
+   height: 100vh;
+  }
+
+  .max-sm-w-screen {
+   width: 100vw;
+  }
+
+  .max-sm-fixed {
+   position: fixed;
+  }
+
+  .max-sm-border-0 {
+   border: 0;
+  }
+  
+ .max-sm-translate-x-full {
+  transform: translateX(100%);
+ }
+
+ }
+</style>
+
+<body>
+
+ <section class="container">
+  <div class="d-flex items-center justify-between border-2 border-solid border-red p-1">
+   <a href="">Logo</a>
+   <label for="toggle-switch" class="toggle-switch block d-sm-hidden">Toggle</label>
+   <input hidden id="toggle-switch" type="checkbox">
+   <div class="d-flex items-center justify-center max-sm-border-0 justify-sm-between gap-3 p-1 border-2 border-red border-solid flex-sm-row flex-col
+    max-sm-h-screen max-sm-w-screen max-sm-fixed max-sm-top-0 max-sm-left-0 z-10 bg-off-white translate-x-full
+    transition-common">
+    <a href="">Link</a>
+    <a href="">Link</a>
+    <a href="">Link</a>
+    <a href="">Link</a>
+    <a href="">Link</a>
+    <a href="">Link</a>
+    <a href="">Link</a>
+    <a href="">Link</a>
+    <a href="">Link</a>
+   </div>
+  </div>
+ </section>
+</body>
+</html>

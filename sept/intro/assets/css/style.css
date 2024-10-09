@@ -1,0 +1,17 @@
+.heading {
+    font-style: normal;
+    color: red;
+    background-color: rgb(148, 148, 141);
+    text-align: center;}
+    div{
+        display:block
+         rgb(20, 26, 22);
+    background-color: rgb(217, 217, 16);}
+.text {color: green;}
+.font {
+    background-color: rgb(229, 240, 240);
+    font-size: large;
+    font-style: italic;
+    color: black;}
+.font{ font-size: large;}
+    

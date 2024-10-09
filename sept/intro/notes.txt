@@ -1,0 +1,26 @@
+website:
+
+Front-end 
+
+responsive layout 2-3
+HTML
+    elements and types:
+
+    1. inline
+
+    2. block-level
+
+    html semantics?
+    attributes
+    name=""
+
+CSS
+    property:value;
+    1. inline 
+    2. internal 
+    3. external 
+
+    what is CSS selectors?
+
+
+JS
